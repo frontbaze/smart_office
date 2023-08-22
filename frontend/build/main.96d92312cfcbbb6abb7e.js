@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("FOOOO"),document.body.innerHTML="<h1>Hello World!</h1>"})();
