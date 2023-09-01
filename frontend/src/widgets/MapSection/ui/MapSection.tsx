@@ -4,7 +4,7 @@ import { Map } from '../../../shared/ui/Map/Map';
 
 export function MapSection() {
 	return (
-		<div className={cn(cls.MapSection)}>
+		<div id='map' className={cn(cls.MapSection)}>
 			<Map />
 		</div>
 	);

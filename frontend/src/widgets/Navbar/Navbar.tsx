@@ -19,12 +19,12 @@ export function Navbar() {
 
 				<div className={cn(cls.right)}>
 					<div className={cn(cls.address)}>
-						г. Владивосток, <br /> ул. Уборевича 17
+						<a className={cls.mapLink} href="#map">г. Владивосток, <br /> ул. Уборевича 17</a>
 					</div>
 					<a className={cn(cls.link)} href='tel:+79025209861'>
-						+7(902)520 98 61
+						+7 (902) 520 98 61
 					</a>
-					<button>Забронировать</button>
+					<button className={cls.navBtn}>Забронировать</button>
 				</div>
 			</div>
 		</div>

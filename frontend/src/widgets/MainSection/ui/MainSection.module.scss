@@ -1,0 +1,15 @@
+.MainSection {
+	// height: calc(100vh - var(--header-height));
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.mainImg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

@@ -22,7 +22,8 @@
 	gap: 0 30px;
 }
 
-.link {
+.link, 
+.mapLink {
 	display: block;
 	text-decoration: none;
 	color: var(--white);
@@ -43,6 +44,25 @@
 	max-width: 200px;
 	text-align: right;
 	font-size: 14px;
+}
+
+.mapLink {
+	font-weight: 300;
+}
+
+.navBtn {
+	border: 1px solid var(--white);
+	border-radius: 5px;
+	padding: 7px 15px;
+	background-color: transparent;
+	color: var(--white);
+	cursor: pointer;
+}
+
+.navBtn:hover,
+.mapLink:hover {
+	opacity: 0.8;
+	transition: 0.3s;
 }
 
 @media screen and (max-width: 910px) {

@@ -5,22 +5,35 @@
 }
 
 .description {
-    max-width: 20%;
+    max-width: 25%;
     width: 100%;
 }
 
 .title {
-
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .person {
-
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .price {
-
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 25px;
+}
 
+.roomBtn {
+    margin-top: 20px;
 }

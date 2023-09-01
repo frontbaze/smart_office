@@ -23,18 +23,18 @@ export function RoomCard(props: RoomCardProps) {
 						<img key={slide} src={slide} alt='Фото номеров' />
 					</SwiperSlide>
 				))}
-            </Swiper>
-            
+			</Swiper>
+
 			<div className={cls.description}>
 				<div className={cls.title}>{title}</div>
 				<div className={cls.person}>{person}</div>
-				<div className={cls.price}>{price}</div>
+				<div className={cls.price}>{price} ₽</div>
 				<div className={cls.info}>
 					{info.map((item) => (
 						<div key={item}>{item}</div>
 					))}
 				</div>
-				<button>Забронировать</button>
+				<button className={cls.roomBtn}>Забронировать</button>
 			</div>
 		</div>
 	);
