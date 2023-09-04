@@ -2,10 +2,15 @@
     display: flex;
     justify-content: center;
     gap: 40px 40px;
+    // max-width: 70%;
+}
+
+.roomImg {
+    
 }
 
 .description {
-    max-width: 25%;
+    max-width: 40%;
     width: 100%;
 }
 
@@ -15,25 +20,37 @@
 }
 
 .person {
-    font-size: 16px;
-    opacity: 0.8;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .price {
     font-size: 25px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 25px;
+    font-weight: 300;
 }
 
 .roomBtn {
+    border: none;
     margin-top: 20px;
+	border-radius: 5px;
+	padding: 10px 20px;
+	background-color: rgb(102, 190, 102);
+	color: #fff;
+	cursor: pointer;
+}
+
+.roomBtn:hover{
+	opacity: 0.8;
+	transition: 0.3s;
 }

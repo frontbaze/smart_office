@@ -4,8 +4,11 @@ import { Map } from '../../../shared/ui/Map/Map';
 
 export function MapSection() {
 	return (
-		<div id='map' className={cn(cls.MapSection)}>
-			<Map />
+		<div id='map'>
+			<div className={cn(cls.MapSection)}>
+			<div className={cls.title}>Вы сможете легко найти нас</div>
+				<Map />
+			</div>
 		</div>
 	);
 }
