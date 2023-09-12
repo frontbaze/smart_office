@@ -1,9 +1,15 @@
-import Photo1 from '../../../../shared/assets/images/photo-1.jpg';
-import Photo2 from '../../../../shared/assets/images/photo-2.jpg';
-import Photo3 from '../../../../shared/assets/images/photo-3.jpg';
-import Photo4 from '../../../../shared/assets/images/photo-7.jpg';
-import Photo5 from '../../../../shared/assets/images/photo-8.jpg';
-import Photo6 from '../../../../shared/assets/images/photo-9.jpg';
+import room1 from '../../../../shared/assets/images/room1.jpg';
+import room2 from '../../../../shared/assets/images/room2.jpg';
+import room3 from '../../../../shared/assets/images/room3.jpg';
+import room4 from '../../../../shared/assets/images/room4.jpg';
+import room5 from '../../../../shared/assets/images/room5.jpg';
+import room6 from '../../../../shared/assets/images/room6.jpg';
+import room7 from '../../../../shared/assets/images/room7.jpg';
+import room8 from '../../../../shared/assets/images/room8.jpg';
+import vip1 from '../../../../shared/assets/images/vip1.jpg';
+import vip2 from '../../../../shared/assets/images/vip2.jpg';
+import vip3 from '../../../../shared/assets/images/vip3.jpg';
+import vip4 from '../../../../shared/assets/images/vip4.jpg';
 
 export interface Rooms {
 	id: number;
@@ -17,11 +23,7 @@ export interface Rooms {
 export const rooms: Rooms[] = [
 	{
 		id: 1,
-		slides: [
-			Photo1,
-			Photo2,
-			Photo3,
-		],
+		slides: [room1, room2, room3, room4, room5, room6, room7],
 		title: 'Стандартный',
 		person: '1 - 2 человека',
 		price: 2000,
@@ -29,11 +31,7 @@ export const rooms: Rooms[] = [
 	},
 	{
 		id: 2,
-		slides: [
-			Photo4,
-			Photo5,
-			Photo6,
-		],
+		slides: [vip1, vip2, vip3, vip4],
 		title: 'VIP',
 		person: '1 - 3 человека',
 		price: 2500,

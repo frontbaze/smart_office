@@ -1,0 +1,29 @@
+.ReviewCard {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.quotes {
+}
+.description {
+    text-align: center;
+}
+.avatar {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.name {
+}
+.stars {
+    display: flex;
+    gap: 0 5px;
+}
+
+.star {
+    fill: var(--star);
+}

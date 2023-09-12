@@ -7,6 +7,7 @@ export function MapSection() {
 		center: [43.118479, 131.890634],
 		zoom: 18,
 	};
+
 	return (
 		<div id='map'>
 			<div className={cn(cls.MapSection)}>
@@ -14,7 +15,7 @@ export function MapSection() {
 
 				<YMaps>
 					<Map width={'100%'} height={500} defaultState={defaultState}>
-						<Placemark geometry={[43.118479, 131.890634]} />
+						<Placemark geometry={[43.118479, 131.890634]} options={{ preset: 'islands#redDotIcon' }} />
 					</Map>
 				</YMaps>
 			</div>

@@ -1,6 +1,7 @@
 import cn from 'classnames';
 import cls from './AboutSection.module.scss';
 
+
 export const AboutSection = () => {
     return (
 		<div id='about' className={cls.AboutSection}>

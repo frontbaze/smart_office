@@ -34,9 +34,7 @@ export function RoomCard(props: RoomCardProps) {
 						<div key={item}>{item}</div>
 					))}
 				</div>
-				<button className={cls.roomBtn}>
-					Забронировать
-				</button>
+				<button className={cls.roomBtn}>Забронировать</button>
 			</div>
 		</div>
 	);

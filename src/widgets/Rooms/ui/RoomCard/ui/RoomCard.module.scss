@@ -1,8 +1,7 @@
 .RoomCard {
     display: flex;
     justify-content: center;
-    gap: 40px 40px;
-    // max-width: 70%;
+    gap: 40px 80px;
 }
 
 .roomImg {
@@ -10,7 +9,7 @@
 }
 
 .description {
-    max-width: 40%;
+    max-width: 400px;
     width: 100%;
 }
 
