@@ -13,7 +13,7 @@ export const AboutSection = () => {
 				<div className={cls.left}>
 					<div className={cls.title}>Об отеле</div>
 					<div className={cls.address}>
-						г. Владивосток, ул. Уборевича 17, <br /> смарт отель "Smart Office" <br /> +7 (902) 520 98 61
+						г. Владивосток, ул. Уборевича 17, <br /> смарт-отель "Smart Office" <br /> +7 (902) 520 98 61
 					</div>
 				</div>
 				<div className={cls.right}>

@@ -3,7 +3,6 @@
 	max-width: 80%;
     @media screen and (max-width: 550px) {
         max-width: 100%;
-        // padding: 0 10px;
     }
 }
 
@@ -13,6 +12,10 @@
 
 .titleWrapper {
     margin-bottom: 50px;
+    @media screen and (max-width: 550px) {
+        max-width: 100%;
+        padding: 0 20px;
+    }
 }
 
 .title {
@@ -20,11 +23,16 @@
     padding-top: 70px;
     font-size: 40px;
     font-weight: 500;
+    @media screen and (max-width: 550px) {
+        font-size: 25px;
+    }
 }
 
 .description {
     max-width: 600px;
     font-size: 20px;
     font-weight: 300;
-    
+    @media screen and (max-width: 550px) {
+        font-size: 16px;
+    }
 }

@@ -2,6 +2,10 @@
 	padding: 10px 20px;
 	height: var(--header-height);
 	background-color: var(--black);
+	position: relative;
+	@media screen and (max-width: 550px) {
+		height: 50px;
+	}
 }
 
 .wrapper {
@@ -19,10 +23,10 @@
 .right {
 	display: flex;
 	align-items: center;
-	gap: 0 30px;
+	gap: 0 40px;
 }
 
-.link, 
+.link,
 .mapLink {
 	display: block;
 	text-decoration: none;
@@ -39,7 +43,10 @@
 .link:visited {
 	color: var(--white);
 }
-
+.link span {
+	display: block;
+	text-align: right;
+}
 .address {
 	color: var(--white);
 	max-width: 200px;
@@ -49,6 +56,7 @@
 
 .mapLink {
 	font-weight: 300;
+	min-width: 219px;
 }
 
 .navBtn {
@@ -71,7 +79,88 @@
 	.left {
 		display: none;
 	}
-	.wrapper {
-		justify-content: end;
+	.right {
+		display: none;
 	}
+	.hamburger {
+		display: block;
+	}
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+	&:hover span:nth-child(2) {
+		transform: translateX(10px);
+	}
+	@media (max-width: 910px) {
+		display: block;
+		position: absolute;
+		right: 3%;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 45px;
+	}
+	&__line {
+		@media (max-width: 910px) {
+			display: block;
+			height: 3px;
+			width: 100%;
+			background-color: white;
+			margin-bottom: 7px;
+			transition: 0.5s all;
+			border-radius: 2px;
+		}
+	}
+}
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 20px;
+	background-color: black;
+	z-index: 1000;
+	position: absolute;
+	top: var(--header-height);
+	left: 0;
+	right: 0;
+	color: white;
+	
+}
+.menulink {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	font-size: 18px;
+	font-weight: 500;
+	cursor: pointer;
+	padding: 10px 0;
+}
+.menuAddress {
+	margin-top: 20px;
+	text-align: center;
+	max-width: 250px;
+	margin-bottom: 20px;
+}
+.menuMapLink {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menuNavBtn {
+	margin-top: 20px;
+	border: 1px solid var(--white);
+	border-radius: 5px;
+	padding: 7px 15px;
+	background-color: transparent;
+	color: var(--white);
+	cursor: pointer;
+	text-decoration: none;
+}
+.menuNavBtn:hover,
+.menulink:hover {
+	opacity: 0.8;
+	transition: 0.3s;
 }

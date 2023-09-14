@@ -27,13 +27,17 @@
     min-width: 40%;
     @media screen and (max-width: 550px) {
         max-width: 100%;
-        padding: 0 10px;
+        padding: 0 20px;
+        text-align: center;
     }
 }
 
 .title {
     font-size: 30px;
     font-weight: 600;
+    @media screen and (max-width: 550px) {
+        font-size: 25px;
+    }
 }
 
 .person {
@@ -41,12 +45,18 @@
     font-weight: 300;
     margin-bottom: 15px;
     margin-top: 15px;
+    @media screen and (max-width: 550px) {
+        font-size: 16px;
+    }
 }
 
 .price {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 20px;
+    @media screen and (max-width: 550px) {
+        font-size: 22px;
+    }
 }
 
 .info {
@@ -55,6 +65,9 @@
     font-size: 18px;
     line-height: 25px;
     font-weight: 300;
+    @media screen and (max-width: 550px) {
+        font-size: 16px;
+    }
 }
 
 .roomBtn {
@@ -69,6 +82,11 @@
 	background-color: rgb(102, 190, 102);
 	color: #fff;
 	cursor: pointer;
+    @media screen and (max-width: 550px) {
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
 }
 
 .roomBtn:hover{

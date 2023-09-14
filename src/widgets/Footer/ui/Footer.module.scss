@@ -16,7 +16,9 @@
     flex-wrap: wrap;
     @media screen and (max-width: 1200px) {
         gap: 0 50px;
-        justify-content: start;
+    }
+    @media screen and (max-width: 550px) {
+        justify-content: center;
     }
 }
 .address {
@@ -24,6 +26,10 @@
     padding: 20px;
     & span {
         font-weight: 700;
+    }
+    @media screen and (max-width: 550px) {
+        padding: 0;
+        font-size: 14px;
     }
 }
 .contactsWrapper {
@@ -37,7 +43,10 @@
         color: inherit;
         text-decoration: none;
         font-weight: 700;
-        // margin-bottom: 10px;
+    }
+    @media screen and (max-width: 550px) {
+        padding: 0;
+        font-size: 14px;
     }
 }
 .mail {
@@ -45,6 +54,10 @@
     font-size: 20px;
     & span {
         font-weight: 700;
+    }
+    @media screen and (max-width: 550px) {
+        padding: 0;
+        font-size: 14px;
     }
 }
 .copyright {
@@ -54,6 +67,7 @@
     display: flex;
 }
 .location {
+    width: 45px;
     fill: white;
 }
 .whatsappWrapper {
@@ -63,7 +77,7 @@
     margin-bottom: 10px;
 }
 .whatsapp {
-    width: 50px;
+    width: 40px;
 }
 .telWrapper {
     display: flex;
@@ -71,7 +85,7 @@
 }
 .telephone {
     fill: white;
-    width: 50px;
+    width: 40px;
 }
 .emailWrapper {
     display: flex;
@@ -79,6 +93,6 @@
     gap: 0 10px;
 }
 .email {
-    width: 50px;
+    width: 40px;
     stroke: white;
 }

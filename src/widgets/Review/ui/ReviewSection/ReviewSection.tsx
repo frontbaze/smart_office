@@ -15,10 +15,10 @@ export const ReviewSection = () => {
 
 	const changeSlidesPerView = useCallback(() => {
 		let slidesPerView = 3;
-		if (clientWidth <= 1445) {
+		if (clientWidth <= 1200) {
 			slidesPerView = 2;
 		}
-		if (clientWidth <= 940) {
+		if (clientWidth <= 830) {
 			slidesPerView = 1;
 		}
 		return slidesPerView;
@@ -42,7 +42,7 @@ export const ReviewSection = () => {
 				spaceBetween={'50px 50px'}
 				slidesPerView={changeSlidesPerView()}
 			>
-				{reviews.map((item) => (
+				{reviews.map((item, i) => (
 					<div className={cn(cls.reviewWrapper)}>
 						<SwiperSlide>
 							<ReviewCard
@@ -57,7 +57,7 @@ export const ReviewSection = () => {
 				))}
 			</Swiper>
 			<div className={cls.recomendation}>
-				<div className={cls.title}>Нас рекомнедуют на</div>
+				<div className={cls.recomendTitle}>Нас рекомнедуют на</div>
 				<Link to={'https://vl.sutochno.ru/hotels/115924'}>
 					<img width={200} src={Sutochno} alt='Суточно.ру' />
 				</Link>

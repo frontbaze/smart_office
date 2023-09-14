@@ -30,8 +30,7 @@ img {
 	--star: #ffb703;
 
 	--header-height: 70px;
-}
-
-.swiper {
-	margin-bottom: 50px;
+	// @media screen and (max-width: 550px) {
+	// 	--header-height: 50px;
+	// }
 }

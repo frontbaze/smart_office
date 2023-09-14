@@ -15,7 +15,7 @@ export const Footer = () => {
 					<div className={cls.locationWrapper}>
 						<Icon Svg={LocationIcon} className={cls.location} />
 						<span>
-							г. Владивосток, <br /> ул. Уборевича 17
+							Смарт-отель "Smart Office" <br /> г. Владивосток, ул. Уборевича 17
 						</span>
 					</div>
 				</div>
@@ -24,13 +24,13 @@ export const Footer = () => {
 					<div className={cls.contactsWrapper}>
 						<a className={cn(cls.link, cls.whatsappWrapper)} href='https://wa.me/+79025209861'>
 							<Icon Svg={WhatsAppIcon} className={cls.whatsapp} />
-							+7 (902) 520 98 61 (Whatsapp)
+							+7 (902) 520 98 61 <br /> (Whatsapp)
 						</a>
 
 						<div className={cls.telWrapper}>
 							<Icon Svg={TelIcon} className={cls.telephone} />
 							<a className={cn(cls.link)} href='tel:+79025209861'>
-								+7 (914) 724 98 74 (Бронирование)
+								+7 (914) 724 98 74 <br /> (Бронирование)
 							</a>
 						</div>
 					</div>

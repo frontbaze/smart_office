@@ -2,14 +2,27 @@
 	width: 90%;
 	margin: 0 auto;
 	padding: 50px 0;
+	@media screen and (max-width: 550px) {
+        width: 100%;
+    }
 }
 
-.title {
+.title, 
+.recomendTitle {
+	text-align: center;
 	font-size: 35px;
 	font-weight: 500;
 	margin-bottom: 30px;
+	@media screen and (max-width: 550px) {
+        font-size: 25px;
+    }
 }
-
+.recomendTitle {
+	@media screen and (max-width: 550px) {
+        font-size: 20px;
+		margin-bottom: 15px;
+    }
+}
 .sample-slider [class^="swiper-button-"]::after{
     display: flex;
     justify-content: center;
@@ -23,6 +36,9 @@
 .sample-slider {
 	padding: 0 47px;
 	margin: 0 auto;
+	@media screen and (max-width: 550px) {
+        padding: 0 35px;
+    }
 }
 .reviewWrapper {
 	display: flex;
