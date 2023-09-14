@@ -26,7 +26,7 @@ export const rooms: Rooms[] = [
 		slides: [room1, room2, room3, room4, room5, room6, room7],
 		title: 'Стандартный',
 		person: '1 - 2 человека',
-		price: 2000,
+		price: 3000,
 		info: ['Размер 22 - 24 кв. м.', 'Большая двуспальная кровать', 'Быстрый интернет'],
 	},
 	{
@@ -34,7 +34,7 @@ export const rooms: Rooms[] = [
 		slides: [vip1, vip2, vip3, vip4],
 		title: 'VIP',
 		person: '1 - 3 человека',
-		price: 2500,
+		price: 4000,
 		info: ['Размер 22 - 24 кв. м.', 'Большая двуспальная кровать', 'Мини-бар, чайник, кофеварка'],
 	},
 ];

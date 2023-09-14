@@ -16,7 +16,7 @@ interface RoomCardProps {
 export function RoomCard(props: RoomCardProps) {
 	const { slides, title, person, price, info } = props;
 	return (
-		<div className={cn(cls.RoomCard)}>
+		<div className={cn(cls.RoomCard, cls['sample-slider'])}>
 			<Swiper modules={[Navigation]} navigation spaceBetween={'50px 50px'} slidesPerView={1}>
 				{slides.map((slide) => (
 					<SwiperSlide>
@@ -34,7 +34,9 @@ export function RoomCard(props: RoomCardProps) {
 						<div key={item}>{item}</div>
 					))}
 				</div>
-				<button className={cls.roomBtn}>Забронировать</button>
+				<a href='tel:+79147249874' className={cls.roomBtn}>
+					Забронировать
+				</a>
 			</div>
 		</div>
 	);

@@ -24,10 +24,14 @@ export function Navbar() {
 							г. Владивосток, <br /> ул. Уборевича 17
 						</Link>
 					</div>
-					<a className={cn(cls.link)} href='tel:+79025209861'>
-						+7 (902) 520 98 61
+					<div>
+						<a className={cn(cls.link)} href='https://wa.me/+79025209861'>
+							+7 (902) 520 98 61 (Whatsapp)
+						</a>
+					</div>
+					<a href='tel:+79147249874' className={cls.navBtn}>
+						Забронировать
 					</a>
-					<button className={cls.navBtn}>Забронировать</button>
 				</div>
 			</div>
 		</div>

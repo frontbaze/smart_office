@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
     background-color: var(--black);
     color: var(--white);
     padding: 20px;
@@ -14,22 +13,35 @@
     justify-content: center;
     gap: 0 150px;
     line-height: 30px;
+    flex-wrap: wrap;
+    @media screen and (max-width: 1200px) {
+        gap: 0 50px;
+        justify-content: start;
+    }
 }
 .address {
     font-size: 20px;
+    padding: 20px;
     & span {
         font-weight: 700;
     }
 }
+.contactsWrapper {
+    display: flex;
+    flex-direction: column;
+}
 .contacts {
+    padding: 20px;
     font-size: 20px;
     & a {
         color: inherit;
         text-decoration: none;
         font-weight: 700;
+        // margin-bottom: 10px;
     }
 }
-.email {
+.mail {
+    padding: 20px;
     font-size: 20px;
     & span {
         font-weight: 700;
@@ -37,4 +49,36 @@
 }
 .copyright {
     display: flex;
+}
+.locationWrapper {
+    display: flex;
+}
+.location {
+    fill: white;
+}
+.whatsappWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    margin-bottom: 10px;
+}
+.whatsapp {
+    width: 50px;
+}
+.telWrapper {
+    display: flex;
+    align-items: center;
+}
+.telephone {
+    fill: white;
+    width: 50px;
+}
+.emailWrapper {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+.email {
+    width: 50px;
+    stroke: white;
 }

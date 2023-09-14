@@ -13,26 +13,66 @@ export interface Review {
 export const reviews: Review[] = [
 	{
 		id: 1,
-		name: 'Lorem Lorem',
-		avatar: MaleAvatarIcon,
+		name: 'Анна',
+		avatar: FemaleAvatarIcon,
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae nam animi commodi. A quam, id provident dignissimos voluptas molestias asperiores. Repellendus dicta quidem commodi quibusdam odio et voluptas accusamus?',
+			'Понравилось абсолютно все: обслуживание, расположение и т.п. В номере все необходимое имеется, возможен ранний заезд. Хозяин отличный.',
 		quotes: QoutesIcon,
 	},
 	{
 		id: 2,
-		name: 'Lorem Lorem',
-		avatar: FemaleAvatarIcon,
+		name: 'Сергей',
+		avatar: MaleAvatarIcon,
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae nam animi commodi. A quam, id provident dignissimos voluptas molestias asperiores. Repellendus dicta quidem commodi quibusdam odio et voluptas accusamus?',
+			'Отличная гостиница! В историческом центре города. Соотношение цена- качество идеальное. Очень понравился хозяин и персонал: очень вежливые, выполняют все просьбы, в том числе в случае возникновения форс-мажорных обстоятельств. Очень рекомендую.',
 		quotes: QoutesIcon,
 	},
 	{
 		id: 3,
-		name: 'Lorem Lorem',
+		name: 'Руслан',
 		avatar: MaleAvatarIcon,
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non vitae nam animi commodi. A quam, id provident dignissimos voluptas molestias asperiores. Repellendus dicta quidem commodi quibusdam odio et voluptas accusamus?',
+			'Центр. Всё близко. Вокзал, магазины, столовые, набережные, парк!!! В номере всё необходимое для проживания. Бонус:вода, чай, кофе и др. Если, что-то нужно - Администрация предоставляет быстро и бесплатно!!! Рекомендуем.',
+		quotes: QoutesIcon,
+	},
+	{
+		id: 4,
+		name: 'Екатерина',
+		avatar: FemaleAvatarIcon,
+		description:
+			'Понравилось абсолютно всё, начиная с первого впечатления, заканчивая детальным изучением номера. Учтивость хозяина поразила, все до мелочей предусмотрено для комфортного проживания. Буду рекомендовать знакомым и, в случае посещения Владивостока, выбирать для проживания именно это место. Восторг!',
+		quotes: QoutesIcon,
+	},
+	{
+		id: 5,
+		name: 'Алексей',
+		avatar: MaleAvatarIcon,
+		description:
+			'В отеле есть все необходимое для комфортного проживания, а именно: бесплатная прачечная с возможностью быстрой сушки вещей; кондиционер (летом довольно нужная вещь); кулер с водой в холле отеля; холодильник и т.д. Также хотелось бы отметить великолепную работу владельца отеля, который все объяснил и на протяжении проживания интересовался все ли в порядке.',
+		quotes: QoutesIcon,
+	},
+	{
+		id: 6,
+		name: 'Мария',
+		avatar: FemaleAvatarIcon,
+		description:
+			'Прожили 3 ночи все очень понравилось! Расположение хорошее, есть все в пешей доступности. Комнаты чистые, белое постельное белье, есть кондиционер, можно менять полотенца хоть каждый день, есть чай, кофе, шампунь, гель, зубная щетка с пастой. Очень внимательные  отзывчивые хозяева.',
+		quotes: QoutesIcon,
+	},
+	{
+		id: 7,
+		name: 'Полина',
+		avatar: FemaleAvatarIcon,
+		description:
+			'Замечательная гостиница! Прекрасные отзывчивые хозяева! Терпеливо отвечали на все мои вопросы, очень участливо относятся к своим гостям, после бронирования сразу вышли на связь, была возможность задать вопросы и договориться о необходимом. Все необходимое есть в номере, вплоть до зубной щетки. Хорошая кровать, качественный текстиль, вся техника (кондиционер, чайник, микроволновка, телевизор, холодильник, водонагреватель) работает исправно, все новое.Расположение идеальное, весь центр в пешей доступности! Рекомендую от души!',
+		quotes: QoutesIcon,
+	},
+	{
+		id: 8,
+		name: 'Евгения',
+		avatar: FemaleAvatarIcon,
+		description:
+			'Отличный отель, удачное месторасположение, хозяин отличный, всегда поможет, подскажет и расскажет. В номере достаточно тихо, соседей не слышно, лайк за систему открывания дверей в номер и в отель (только код и все), очень удобно нет страха потерять ключ или ключ-карту. В номере есть все необходимое и даже больше,  чай, кофе, вода, чайник, фен, свежие полотенца, тапочки. Нам очень  повезло заселиться раньше, за это огромное спасибо Алексею! Отель отличный, 10 из 10',
 		quotes: QoutesIcon,
 	},
 ];

@@ -8,6 +8,7 @@ import { ReviewSection } from '../widgets/Review';
 import { Element } from 'react-scroll';
 import './index.scss';
 import { ProfitSection } from '../widgets/Profit';
+import { TextBlock } from '../widgets/TextBlock';
 
 export function App() {
 	return (

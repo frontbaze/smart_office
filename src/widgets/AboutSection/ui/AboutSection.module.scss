@@ -1,13 +1,39 @@
 .AboutSection {
-	height: 500px;
+	padding-top: 50px;
 	max-width: 80%;
 	margin: 0 auto;
+	@media screen and (max-width: 1544px) {
+		padding-top: 0;
+	}
+	
+}
+.wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 0 100px;
+	@media screen and (max-width: 980px) {
+		flex-direction: column;
+    }
+}
+.blockItem {
+	margin-top: 50px;
 }
 
+.titleItem,
+.textItem {
+	margin: 0 auto;
+	width: 80%;
+	font-size: 20px;
+}
+.titleItem {
+	margin-bottom: 20px;
+}
+.textItem {
+	line-height: 30px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
 .left {
 	max-width: 300px;
 	.title {
@@ -15,6 +41,9 @@
 		font-weight: 500;
 		margin-bottom: 30px;
 	}
+	@media screen and (max-width: 980px) {
+		margin-bottom: 20px;
+    }
 	.address {
 		line-height: 30px;
 		font-weight: 500;
@@ -26,8 +55,8 @@
 
 	.description {
 		line-height: 30px;
-        font-weight: 300;
-        font-size: 20px;
-        margin-bottom: 20px;
+		font-weight: 300;
+		font-size: 20px;
+		margin-bottom: 20px;
 	}
 }
