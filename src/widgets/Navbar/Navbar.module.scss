@@ -3,9 +3,9 @@
 	height: var(--header-height);
 	background-color: var(--black);
 	position: relative;
-	@media screen and (max-width: 550px) {
-		height: 50px;
-	}
+	// @media screen and (max-width: 550px) {
+	// 	height: 50px;
+	// }
 }
 
 .wrapper {
@@ -126,7 +126,6 @@
 	left: 0;
 	right: 0;
 	color: white;
-	
 }
 .menulink {
 	display: block;

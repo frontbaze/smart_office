@@ -19,7 +19,7 @@ export function RoomCard(props: RoomCardProps) {
 		<div className={cn(cls.RoomCard, cls['sample-slider'])}>
 			<Swiper modules={[Navigation]} navigation spaceBetween={'50px 50px'} slidesPerView={1}>
 				{slides.map((slide, i) => (
-					<SwiperSlide>
+					<SwiperSlide className={cls['sample-slider-active']}>
 						<img className={cls.roomImg} key={slide + i} src={slide} alt='Фото номеров' />
 					</SwiperSlide>
 				))}

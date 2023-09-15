@@ -18,9 +18,12 @@
     height: 50px;
     color: white;
 }
-
+// .sample-slider-active {
+//     height: auto;
+//     overflow: hidden;
+// }
 .roomImg {
-   
+   height: auto;
 }
 
 .description {
@@ -79,7 +82,7 @@
     margin-top: 20px;
 	border-radius: 5px;
 	padding: 10px 20px;
-	background-color: rgb(102, 190, 102);
+	background-color: #009A63;
 	color: #fff;
 	cursor: pointer;
     @media screen and (max-width: 550px) {
@@ -91,5 +94,5 @@
 
 .roomBtn:hover{
 	opacity: 0.8;
-	transition: 0.3s;
+	transition: 0.3s ease-in-out;
 }

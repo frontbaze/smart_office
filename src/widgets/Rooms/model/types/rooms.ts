@@ -6,6 +6,7 @@ import room5 from '../../../../shared/assets/images/room5.jpg';
 import room6 from '../../../../shared/assets/images/room6.jpg';
 import room7 from '../../../../shared/assets/images/room7.jpg';
 import room8 from '../../../../shared/assets/images/room8.jpg';
+import room9 from '../../../../shared/assets/images/room9.jpg';
 import vip1 from '../../../../shared/assets/images/vip1.jpg';
 import vip2 from '../../../../shared/assets/images/vip2.jpg';
 import vip3 from '../../../../shared/assets/images/vip3.jpg';
@@ -23,7 +24,7 @@ export interface Rooms {
 export const rooms: Rooms[] = [
 	{
 		id: 1,
-		slides: [room1, room2, room3, room4, room5, room6, room7],
+		slides: [room1, room2, room3, room4, room5, room6, room7, room8, room9],
 		title: 'Стандартный',
 		person: '1 - 2 человека',
 		price: 3000,
@@ -31,10 +32,10 @@ export const rooms: Rooms[] = [
 	},
 	{
 		id: 2,
-		slides: [vip1, vip2, vip3, vip4],
+		slides: [vip1, vip2, vip3, vip4, room8, room9],
 		title: 'VIP',
 		person: '1 - 3 человека',
 		price: 4000,
-		info: ['Размер 22 - 24 кв. м.', 'Большая двуспальная кровать', 'Мини-бар, чайник, кофеварка'],
+		info: ['Размер 22 - 24 кв. м.', 'Большая двуспальная кровать', 'Кондиционер', 'Комфортабельный диван'],
 	},
 ];

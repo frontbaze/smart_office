@@ -47,7 +47,7 @@ export function Navbar() {
 							Отзывы
 						</Link>
 						<div className={cn(cls.menuAddress)}>
-							<Link onClick={openHandler} className={cls.menuMapLink} to='map' smooth={true} offset={20}>
+							<Link onClick={openHandler} className={cls.menuMapLink} to='map' smooth={true} offset={0}>
 								Смарт-отель "Smart Office" <br /> г. Владивосток, <br /> ул. Уборевича 17
 							</Link>
 						</div>

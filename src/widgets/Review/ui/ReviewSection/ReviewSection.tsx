@@ -59,7 +59,7 @@ export const ReviewSection = () => {
 			<div className={cls.recomendation}>
 				<div className={cls.recomendTitle}>Нас рекомнедуют на</div>
 				<Link to={'https://vl.sutochno.ru/hotels/115924'}>
-					<img width={200} src={Sutochno} alt='Суточно.ру' />
+					<img className={cls.sutochno} width={200} src={Sutochno} alt='Суточно.ру' />
 				</Link>
 			</div>
 			<div></div>

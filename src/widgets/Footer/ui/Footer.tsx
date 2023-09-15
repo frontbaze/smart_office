@@ -28,8 +28,8 @@ export const Footer = () => {
 						</a>
 
 						<div className={cls.telWrapper}>
-							<Icon Svg={TelIcon} className={cls.telephone} />
 							<a className={cn(cls.link)} href='tel:+79025209861'>
+								<Icon Svg={TelIcon} className={cls.telephone} />
 								+7 (914) 724 98 74 <br /> (Бронирование)
 							</a>
 						</div>
@@ -38,8 +38,10 @@ export const Footer = () => {
 				<div className={cls.mail}>
 					Электронная почта: <br />
 					<div className={cls.emailWrapper}>
-						<Icon Svg={EmailIcon} className={cls.email} />
-						<span>lorem@mail.ru</span>
+						<a href='mailto:natkim2002@yandex.ru'>
+							<Icon Svg={EmailIcon} className={cls.email} />
+							natkim2002@yandex.ru
+						</a>
 					</div>
 				</div>
 			</div>

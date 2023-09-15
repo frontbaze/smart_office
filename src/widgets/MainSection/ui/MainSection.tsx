@@ -9,11 +9,11 @@ import 'swiper/scss/effect-fade';
 export function MainSection() {
 	return (
 		<div className={cn(cls.MainSection)}>
-			{/* <div className={cls.welcome}>Добро пожаловать <br /> в Smart Hotel</div> */}
 			<Swiper
 				modules={[Autoplay, EffectFade]}
 				autoplay
 				speed={3000}
+				loop
 				effect='fade'
 				spaceBetween={'50px 50px'}
 				slidesPerView={1}

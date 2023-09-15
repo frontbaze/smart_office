@@ -3,42 +3,42 @@
 	margin: 0 auto;
 	padding: 50px 0;
 	@media screen and (max-width: 550px) {
-        width: 100%;
-    }
+		width: 100%;
+	}
 }
 
-.title, 
+.title,
 .recomendTitle {
 	text-align: center;
 	font-size: 35px;
 	font-weight: 500;
 	margin-bottom: 30px;
 	@media screen and (max-width: 550px) {
-        font-size: 25px;
-    }
+		font-size: 25px;
+	}
 }
 .recomendTitle {
 	@media screen and (max-width: 550px) {
-        font-size: 20px;
+		font-size: 20px;
 		margin-bottom: 15px;
-    }
+	}
 }
-.sample-slider [class^="swiper-button-"]::after{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    color: black;
+.sample-slider [class^='swiper-button-']::after {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 25px;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	color: black;
 }
 .sample-slider {
 	padding: 0 47px;
 	margin: 0 auto;
 	@media screen and (max-width: 550px) {
-        padding: 0 35px;
-    }
+		padding: 0 35px;
+	}
 }
 .reviewWrapper {
 	display: flex;
@@ -49,4 +49,18 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+.sutochno:hover {
+	animation: 0.2s linear 0.2s normal none infinite running rot;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
