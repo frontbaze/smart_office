@@ -13,7 +13,6 @@ export function Navbar() {
 		} else {
 			setIsOpen(true);
 		}
-		console.log(isOpen);
 	};
 
 	const changeMenu = useCallback(() => {
@@ -88,7 +87,15 @@ export function Navbar() {
 						Забронировать
 					</a>
 				</div>
-				<div onClick={openHandler} className={cls.hamburger}>
+
+				<div className={cls.logo}>Smart Office</div>
+
+				<div
+					onClick={openHandler}
+					className={cn(cls.hamburger, {
+						[cls.open]: isOpen ? 'open' : '',
+					})}
+				>
 					<span className={cls['hamburger__line']}></span>
 					<span className={cls['hamburger__line']}></span>
 					<span className={cls['hamburger__line']}></span>
