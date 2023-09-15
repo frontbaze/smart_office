@@ -18,9 +18,9 @@ export function MainSection() {
 				spaceBetween={'50px 50px'}
 				slidesPerView={1}
 			>
-				{mainSlides.slides.map((slide, i) => (
-					<SwiperSlide>
-						<img className={cls.mainImg} key={slide + i} src={slide} alt='Фото номеров' />
+				{mainSlides.map((slide) => (
+					<SwiperSlide key={slide.id}>
+						<img className={cls.mainImg} src={slide.src} alt='Фото номеров' />
 					</SwiperSlide>
 				))}
 			</Swiper>

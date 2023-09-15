@@ -43,10 +43,9 @@ export const ReviewSection = () => {
 				slidesPerView={changeSlidesPerView()}
 			>
 				{reviews.map((item, i) => (
-					<div className={cn(cls.reviewWrapper)}>
-						<SwiperSlide>
+					<div key={item.id + i} className={cn(cls.reviewWrapper)}>
+						<SwiperSlide key={item.id}>
 							<ReviewCard
-								key={item.id}
 								description={item.description}
 								quotes={item.quotes}
 								name={item.name}
@@ -62,7 +61,6 @@ export const ReviewSection = () => {
 					<img className={cls.sutochno} width={200} src={Sutochno} alt='Суточно.ру' />
 				</Link>
 			</div>
-			<div></div>
 		</div>
 	);
 };

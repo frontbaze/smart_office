@@ -6,9 +6,8 @@ import { Footer } from '../widgets/Footer';
 import { AboutSection } from '../widgets/AboutSection';
 import { ReviewSection } from '../widgets/Review';
 import { Element } from 'react-scroll';
-import './index.scss';
 import { ProfitSection } from '../widgets/Profit';
-import { TextBlock } from '../widgets/TextBlock';
+import './index.scss';
 
 export function App() {
 	return (

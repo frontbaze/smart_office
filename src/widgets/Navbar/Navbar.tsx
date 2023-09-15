@@ -75,7 +75,7 @@ export function Navbar() {
 
 				<div className={cn(cls.right)}>
 					<div className={cn(cls.address)}>
-						<Link className={cls.mapLink} to='map' smooth={true} offset={20}>
+						<Link className={cls.mapLink} to='map' smooth={true} offset={0}>
 							Смарт-отель "Smart Office" <br /> г. Владивосток, ул. Уборевича 17
 						</Link>
 					</div>

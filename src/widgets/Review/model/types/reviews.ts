@@ -12,7 +12,7 @@ export interface Review {
 
 export const reviews: Review[] = [
 	{
-		id: 1,
+		id: 14,
 		name: 'Анна',
 		avatar: FemaleAvatarIcon,
 		description:
@@ -20,7 +20,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 2,
+		id: 15,
 		name: 'Сергей',
 		avatar: MaleAvatarIcon,
 		description:
@@ -28,7 +28,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 3,
+		id: 16,
 		name: 'Руслан',
 		avatar: MaleAvatarIcon,
 		description:
@@ -36,7 +36,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 4,
+		id: 17,
 		name: 'Екатерина',
 		avatar: FemaleAvatarIcon,
 		description:
@@ -44,7 +44,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 5,
+		id: 18,
 		name: 'Алексей',
 		avatar: MaleAvatarIcon,
 		description:
@@ -52,7 +52,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 6,
+		id: 19,
 		name: 'Мария',
 		avatar: FemaleAvatarIcon,
 		description:
@@ -60,7 +60,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 7,
+		id: 20,
 		name: 'Полина',
 		avatar: FemaleAvatarIcon,
 		description:
@@ -68,7 +68,7 @@ export const reviews: Review[] = [
 		quotes: QoutesIcon,
 	},
 	{
-		id: 8,
+		id: 21,
 		name: 'Евгения',
 		avatar: FemaleAvatarIcon,
 		description:
