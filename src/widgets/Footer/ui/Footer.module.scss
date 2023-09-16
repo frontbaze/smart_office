@@ -96,6 +96,13 @@
 	gap: 0 10px;
 	margin-bottom: 15px;
 }
+.whatsappWrapper:hover,
+.telWrapper:hover,
+.emailWrapper:hover {
+	opacity: 0.7;
+	transition: opacity 0.3s ease-in-out;
+}
+
 .whatsapp {
 	width: 40px;
 }
