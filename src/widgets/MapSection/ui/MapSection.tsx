@@ -12,9 +12,10 @@ export function MapSection() {
 		<div>
 			<div className={cn(cls.MapSection)}>
 				<div className={cls.title}>Вы сможете легко найти нас</div>
+				<div className={cls.subtitle}>Отель расположен в центре города, недалеко от сквера Суханова</div>
 
 				<YMaps>
-					<Map width={'100%'} height={500} defaultState={defaultState}>
+					<Map className={cls.map}  defaultState={defaultState}>
 						<Placemark geometry={[43.118479, 131.890634]} options={{ preset: 'islands#redDotIcon' }} />
 					</Map>
 				</YMaps>

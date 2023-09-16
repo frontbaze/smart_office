@@ -34,7 +34,7 @@
 .textItem {
 	line-height: 30px;
 	font-weight: 300;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 	@media screen and (max-width: 550px) {
 		font-size: 16px;
 	}
@@ -68,8 +68,7 @@
 		font-size: 20px;
 		margin-bottom: 20px;
 		@media screen and (max-width: 550px) {
-		font-size: 18px;
+			font-size: 18px;
+		}
 	}
-	}
-	
 }

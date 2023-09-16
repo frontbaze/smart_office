@@ -46,7 +46,7 @@
 		font-weight: 600;
 		display: flex;
 		align-items: center;
-		gap: 0 10px;
+		gap: 0 20px;
 	}
 	@media screen and (max-width: 550px) {
 		padding: 0;
@@ -71,17 +71,23 @@
 		margin-bottom: 15px;
 	}
 }
+.copyWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px 0;
+}
 .frontbazeLink {
-    text-decoration: none;
-    color: inherit;
-    margin-left: 10px;
+	text-decoration: none;
+	color: inherit;
+	margin-left: 10px;
 }
 .frontbazeLink:hover {
-    opacity: 0.8;
-    transition: 0.3s;
+	opacity: 0.8;
+	transition: 0.3s;
 }
 .copyright {
-	display: flex;
+	text-align: center;
 }
 .locationWrapper {
 	display: flex;
