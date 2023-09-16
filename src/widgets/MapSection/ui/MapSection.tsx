@@ -9,7 +9,7 @@ export function MapSection() {
 	};
 
 	return (
-		<div id='map'>
+		<div>
 			<div className={cn(cls.MapSection)}>
 				<div className={cls.title}>Вы сможете легко найти нас</div>
 

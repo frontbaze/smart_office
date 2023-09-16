@@ -6,7 +6,9 @@
     @media screen and (max-width: 1200px) {
         display: block;
     }
-    
+    @media screen and (min-width: 967px) and (max-width: 1200px) {
+        margin: 0 100px;
+    }
 }
 .sample-slider [class^="swiper-button-"]::after{
     display: flex;
@@ -18,10 +20,7 @@
     height: 50px;
     color: white;
 }
-// .sample-slider-active {
-//     height: auto;
-//     overflow: hidden;
-// }
+
 .roomImg {
    height: auto;
 }

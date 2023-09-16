@@ -45,7 +45,13 @@ export const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className={cls.copyright}>©2023 Smart Office | Все права защищены</div>
+				<div className={cls.copyright}>©2023 Smart Office | Все права защищены</div>
+			<div className={cls.copyWrapper}>
+				<div className={cls.frontbaze}>
+					Разработал:
+					<a className={cls.frontbazeLink} href='https://wa.me/+79805149718'>frontbaze</a>
+				</div>
+			</div>
 		</div>
 	);
 };

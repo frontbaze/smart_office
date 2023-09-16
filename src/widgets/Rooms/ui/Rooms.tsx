@@ -5,12 +5,12 @@ import { rooms } from '../model/types/rooms';
 
 export function Rooms() {
 	return (
-		<div id='rooms' className={cls.roomWrapper}>
+		<div className={cls.roomWrapper}>
 			<div className={cn(cls.Rooms)}>
 				<div className={cls.titleWrapper}>
 					<div className={cls.title}>Наши номера</div>
 					<div className={cls.description}>
-						Мы предлагаем вам два типа номеров, все номера оборудованыдушевыми кабинами и wi-fi
+						Мы предлагаем вам два типа номеров, все номера имеют персональный сан-узел, кондиционер и быстрый wi-fi
 					</div>
 				</div>
 				{rooms.map((item) => (

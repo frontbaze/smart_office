@@ -96,16 +96,13 @@
 		position: absolute;
 		left: 3%;
 		top: 50%;
-		transform: translateY(-35%);
+		transform: translateY(-50%);
 	}
 }
 .hamburger {
 	display: none;
 	height: 45px;
 	cursor: pointer;
-	&:hover span:nth-child(2) {
-		transform: translateX(10px);
-	}
 	@media (max-width: 910px) {
 		display: block;
 		position: absolute;
@@ -138,7 +135,7 @@
 	top: 12px;
 }
 .hamburger span:nth-child(3) {
-	top: 26px;
+	top: 24px;
 }
 .hamburger.open span:nth-child(1) {
 	top: 12px;

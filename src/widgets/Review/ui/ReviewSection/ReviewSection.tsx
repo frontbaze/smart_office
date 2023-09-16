@@ -33,7 +33,7 @@ export const ReviewSection = () => {
 		};
 	}, []);
 	return (
-		<div id='reviews' className={cn(cls.ReviewSection)}>
+		<div className={cn(cls.ReviewSection)}>
 			<div className={cls.title}>Отзывы наших гостей</div>
 			<Swiper
 				className={cls['sample-slider']}
