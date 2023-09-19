@@ -2,7 +2,6 @@ import cn from 'classnames';
 import cls from './ReviewSection.module.scss';
 import { reviews } from '../../model/types/reviews';
 import { ReviewCard } from '../ReviewCard/ReviewCard';
-import { Link } from 'react-router-dom';
 import Sutochno from '../../../../shared/assets/images/sutochno.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
@@ -58,9 +57,9 @@ export const ReviewSection = () => {
 			</Swiper>
 			<div className={cls.recomendation}>
 				<div className={cls.recomendTitle}>Нас рекомнедуют на</div>
-				<Link to={'https://vl.sutochno.ru/hotels/115924'}>
+				<a href={'https://vl.sutochno.ru/hotels/115924'}>
 					<img className={cls.sutochno} width={200} src={Sutochno} alt='Суточно.ру' />
-				</Link>
+				</a>
 			</div>
 		</div>
 	);
