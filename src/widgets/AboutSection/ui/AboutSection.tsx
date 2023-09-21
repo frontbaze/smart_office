@@ -8,10 +8,10 @@ import 'swiper/scss/pagination';
 
 export const AboutSection = () => {
 	return (
-		<div id='about' className={cls.AboutSection}>
+		<div className={cls.AboutSection}>
 			<div className={cls.wrapper}>
 				<div className={cls.left}>
-					<div className={cls.title}>Об отеле</div>
+					<h2 className={cls.title}>Об отеле</h2>
 					<div className={cls.address}>
 						г. Владивосток, ул. Уборевича 17, <br /> смарт-отель "Smart Office" <br /> +7 (902) 520 98 61
 					</div>

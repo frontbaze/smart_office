@@ -32,10 +32,10 @@ export function Navbar() {
 		};
 	}, []);
 	return (
-		<div className={cn(cls.Navbar)}>
+		<header className={cn(cls.Navbar)}>
 			<div className={cn(cls.wrapper)}>
 				{changeMenu() && isOpen ? (
-					<div className={cn(cls.menu)}>
+					<nav className={cn(cls.menu)}>
 						<Link onClick={openHandler} className={cn(cls.menulink)} to='about' smooth={true} offset={20}>
 							Об Отеле
 						</Link>
@@ -58,9 +58,9 @@ export function Navbar() {
 						<a onClick={openHandler} href='tel:+79147249874' className={cls.menuNavBtn}>
 							Забронировать
 						</a>
-					</div>
+					</nav>
 				) : null}
-				<div className={cn(cls.left)}>
+				<nav className={cn(cls.left)}>
 					<Link className={cn(cls.link)} to='about' smooth={true} offset={20}>
 						Об Отеле
 					</Link>
@@ -70,7 +70,7 @@ export function Navbar() {
 					<Link className={cn(cls.link)} to='reviews' smooth={true} offset={20}>
 						Отзывы
 					</Link>
-				</div>
+				</nav>
 
 				<div className={cn(cls.right)}>
 					<div className={cn(cls.address)}>
@@ -101,6 +101,6 @@ export function Navbar() {
 					<span className={cls['hamburger__line']}></span>
 				</div>
 			</div>
-		</div>
+		</header>
 	);
 }

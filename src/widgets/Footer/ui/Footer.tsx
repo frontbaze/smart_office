@@ -8,7 +8,7 @@ import EmailIcon from '../../../shared/assets/icons/email.svg';
 
 export const Footer = () => {
 	return (
-		<div className={cls.Footer}>
+		<footer className={cls.Footer}>
 			<div className={cls.footerWrapper}>
 				<div className={cls.address}>
 					Адрес: <br />{' '}
@@ -52,6 +52,6 @@ export const Footer = () => {
 					<a className={cls.frontbazeLink} href='https://wa.me/+79805149718'>frontbaze</a>
 				</div>
 			</div>
-		</div>
+		</footer>
 	);
 };

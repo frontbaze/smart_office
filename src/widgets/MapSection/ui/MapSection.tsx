@@ -11,8 +11,8 @@ export function MapSection() {
 	return (
 		<div>
 			<div className={cn(cls.MapSection)}>
-				<div className={cls.title}>Вы сможете легко найти нас</div>
-				<div className={cls.subtitle}>Отель расположен в центре города, недалеко от сквера Суханова</div>
+				<h2 className={cls.title}>Вы сможете легко найти нас</h2>
+				<h3 className={cls.subtitle}>Отель расположен в центре города, недалеко от сквера Суханова</h3>
 
 				<YMaps>
 					<Map className={cls.map}  defaultState={defaultState}>

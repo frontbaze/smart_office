@@ -8,7 +8,8 @@ import 'swiper/scss/effect-fade';
 
 export function MainSection() {
 	return (
-		<div className={cn(cls.MainSection)}>
+		<main className={cn(cls.MainSection)}>
+			<h1 className={cls['visually-hidden']}>Smart Office Hotel - смарт-отель в центре Владивостока</h1>
 			<Swiper
 				modules={[Autoplay, EffectFade]}
 				autoplay
@@ -24,6 +25,6 @@ export function MainSection() {
 					</SwiperSlide>
 				))}
 			</Swiper>
-		</div>
+		</main>
 	);
 }

@@ -8,10 +8,10 @@ export function Rooms() {
 		<div className={cls.roomWrapper}>
 			<div className={cn(cls.Rooms)}>
 				<div className={cls.titleWrapper}>
-					<div className={cls.title}>Наши номера</div>
-					<div className={cls.description}>
+					<h2 className={cls.title}>Наши номера</h2>
+					<h3 className={cls.description}>
 						Мы предлагаем вам два типа номеров, все номера имеют персональный сан-узел, кондиционер и быстрый wi-fi
-					</div>
+					</h3>
 				</div>
 				{rooms.map((item) => (
 					<RoomCard

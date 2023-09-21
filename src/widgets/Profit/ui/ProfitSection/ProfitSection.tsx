@@ -6,8 +6,8 @@ import Icon from '../../../../shared/ui/Icon/Icon';
 export const ProfitSection = () => {
 	return (
 		<div className={cn(cls.ProfitSection)}>
-			<div className={cls.title}>Удобства</div>
-			<div className={cls.subtitle}>Мы хотим, чтобы каждый мог почувствовать себя свободным в нашем отеле</div>
+			<h2 className={cls.title}>Удобства</h2>
+			<h3 className={cls.subtitle}>Мы хотим, чтобы каждый мог почувствовать себя свободным в нашем отеле</h3>
 			<div className={cls.wrapper}>
 				{profits.map((item) => (
 					<div key={item.id} className={cls.item}>

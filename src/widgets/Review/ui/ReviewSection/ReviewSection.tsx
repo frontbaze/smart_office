@@ -33,8 +33,8 @@ export const ReviewSection = () => {
 	}, []);
 	return (
 		<div className={cn(cls.ReviewSection)}>
-			<div className={cls.title}>Отзывы наших гостей</div>
-			<div className={cls.subtitle}>Ещё больше отзывов можно найти на сервисе бронирования - Суточно.ру</div>
+			<h2 className={cls.title}>Отзывы наших гостей</h2>
+			<h3 className={cls.subtitle}>Ещё больше отзывов можно найти на сервисе бронирования - Суточно.ру</h3>
 			<Swiper
 				className={cls['sample-slider']}
 				modules={[Navigation]}
