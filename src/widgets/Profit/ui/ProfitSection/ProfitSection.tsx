@@ -2,10 +2,11 @@ import cn from 'classnames';
 import cls from './ProfitSection.module.scss';
 import { profits } from '../../model/profit';
 import Icon from '../../../../shared/ui/Icon/Icon';
+import { memo } from 'react';
 
-export const ProfitSection = () => {
+export const ProfitSection = memo(() => {
 	return (
-		<div className={cn(cls.ProfitSection)}>
+		<section className={cn(cls.ProfitSection)}>
 			<h2 className={cls.title}>Удобства</h2>
 			<h3 className={cls.subtitle}>Мы хотим, чтобы каждый мог почувствовать себя свободным в нашем отеле</h3>
 			<div className={cls.wrapper}>
@@ -21,6 +22,6 @@ export const ProfitSection = () => {
 					</div>
 				))}
 			</div>
-		</div>
+		</section>
 	);
-};
+});

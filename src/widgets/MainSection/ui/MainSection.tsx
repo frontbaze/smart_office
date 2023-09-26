@@ -3,10 +3,11 @@ import cls from './MainSection.module.scss';
 import { mainSlides } from '../model/types/main';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
+import { memo } from 'react';
 import 'swiper/scss';
 import 'swiper/scss/effect-fade';
 
-export function MainSection() {
+export const MainSection = memo(() => {
 	return (
 		<main className={cn(cls.MainSection)}>
 			<h1 className={cls['visually-hidden']}>Smart Office Hotel - смарт-отель в центре Владивостока</h1>
@@ -27,4 +28,4 @@ export function MainSection() {
 			</Swiper>
 		</main>
 	);
-}
+});

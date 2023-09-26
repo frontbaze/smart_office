@@ -7,9 +7,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/scss';
 import 'swiper/scss/navigation';
-import { useCallback, useEffect, useState } from 'react';
+import { memo, useCallback, useEffect, useState } from 'react';
 
-export const ReviewSection = () => {
+export const ReviewSection = memo(() => {
 	const [clientWidth, setClientWidth] = useState(document.documentElement.clientWidth);
 
 	const changeSlidesPerView = useCallback(() => {
@@ -32,7 +32,7 @@ export const ReviewSection = () => {
 		};
 	}, []);
 	return (
-		<div className={cn(cls.ReviewSection)}>
+		<section className={cn(cls.ReviewSection)}>
 			<h2 className={cls.title}>Отзывы наших гостей</h2>
 			<h3 className={cls.subtitle}>Ещё больше отзывов можно найти на сервисе бронирования - Суточно.ру</h3>
 			<Swiper
@@ -61,6 +61,6 @@ export const ReviewSection = () => {
 					<img className={cls.sutochno} width={200} src={Sutochno} alt='Суточно.ру' />
 				</a>
 			</div>
-		</div>
+		</section>
 	);
-};
+});

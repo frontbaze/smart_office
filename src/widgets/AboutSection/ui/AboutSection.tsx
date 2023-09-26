@@ -1,14 +1,14 @@
-import cn from 'classnames';
 import cls from './AboutSection.module.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { blocks } from '../model/about';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/scss';
 import 'swiper/scss/pagination';
+import { memo } from 'react';
 
-export const AboutSection = () => {
+export const AboutSection = memo(() => {
 	return (
-		<div className={cls.AboutSection}>
+		<section className={cls.AboutSection}>
 			<div className={cls.wrapper}>
 				<div className={cls.left}>
 					<h2 className={cls.title}>Об отеле</h2>
@@ -47,6 +47,6 @@ export const AboutSection = () => {
 					</SwiperSlide>
 				))}
 			</Swiper>
-		</div>
+		</section>
 	);
-};
+});

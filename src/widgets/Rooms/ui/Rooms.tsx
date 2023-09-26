@@ -2,15 +2,17 @@ import cn from 'classnames';
 import cls from './Rooms.module.scss';
 import { RoomCard } from './RoomCard';
 import { rooms } from '../model/types/rooms';
+import { memo } from 'react';
 
-export function Rooms() {
+export const Rooms = memo(() => {
 	return (
-		<div className={cls.roomWrapper}>
+		<section className={cls.roomWrapper}>
 			<div className={cn(cls.Rooms)}>
 				<div className={cls.titleWrapper}>
 					<h2 className={cls.title}>Наши номера</h2>
 					<h3 className={cls.description}>
-						Мы предлагаем вам два типа номеров, все номера имеют персональный сан-узел, кондиционер и быстрый wi-fi
+						Мы предлагаем вам два типа номеров, все номера имеют персональный сан-узел, кондиционер и
+						быстрый wi-fi
 					</h3>
 				</div>
 				{rooms.map((item) => (
@@ -24,6 +26,6 @@ export function Rooms() {
 					/>
 				))}
 			</div>
-		</div>
+		</section>
 	);
-}
+});

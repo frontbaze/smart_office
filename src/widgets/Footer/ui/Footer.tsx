@@ -5,8 +5,9 @@ import WhatsAppIcon from '../../../shared/assets/icons/whatsapp.svg';
 import LocationIcon from '../../../shared/assets/icons/location.svg';
 import TelIcon from '../../../shared/assets/icons/tel.svg';
 import EmailIcon from '../../../shared/assets/icons/email.svg';
+import { memo } from 'react';
 
-export const Footer = () => {
+export const Footer = memo(() => {
 	return (
 		<footer className={cls.Footer}>
 			<div className={cls.footerWrapper}>
@@ -49,9 +50,11 @@ export const Footer = () => {
 				<div className={cls.copyright}>©2023 Smart Office | Все права защищены</div>
 				<div className={cls.frontbaze}>
 					Разработал:
-					<a className={cls.frontbazeLink} href='https://wa.me/+79805149718'>frontbaze</a>
+					<a className={cls.frontbazeLink} href='https://wa.me/+79805149718'>
+						frontbaze
+					</a>
 				</div>
 			</div>
 		</footer>
 	);
-};
+});

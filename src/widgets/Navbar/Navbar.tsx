@@ -1,9 +1,9 @@
 import cn from 'classnames';
 import cls from './Navbar.module.scss';
 import { Link } from 'react-scroll';
-import { useCallback, useEffect, useState } from 'react';
+import { memo, useCallback, useEffect, useState } from 'react';
 
-export function Navbar() {
+export const Navbar = memo(() => {
 	const [isOpen, setIsOpen] = useState(false);
 	const [clientWidth, setClientWidth] = useState(document.documentElement.clientWidth);
 
@@ -103,4 +103,4 @@ export function Navbar() {
 			</div>
 		</header>
 	);
-}
+});

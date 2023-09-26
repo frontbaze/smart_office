@@ -1,4 +1,6 @@
 .MainSection {
+	object-fit: cover;
+	background-size: cover;
 	position: relative;
 	height: calc(100vh - var(--header-height));
 	overflow: hidden;

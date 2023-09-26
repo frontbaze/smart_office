@@ -26,8 +26,7 @@
 	margin-bottom: 30px;
 	@media screen and (max-width: 550px) {
 		font-size: 18px;
-	padding: 0 10px;
-
+		padding: 0 10px;
 	}
 }
 .recomendTitle {
@@ -65,16 +64,10 @@
 	align-items: center;
 }
 .sutochno:hover {
-	animation: 0.8s linear 0.7s normal none infinite running rot;
-}
-@keyframes rot {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
+	transition: 0.3s ease-in-out;
+	-webkit-transform: scale(1.25); /* Safari and Chrome */
+	-moz-transform: scale(1.25); /* Firefox */
+	-ms-transform: scale(1.25); /* IE 9 */
+	-o-transform: scale(1.25); /* Opera */
+	transform: scale(1.25);
 }
