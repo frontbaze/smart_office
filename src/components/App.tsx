@@ -13,16 +13,13 @@ import { Helmet } from 'react-helmet-async';
 export function App() {
 	return (
 		<>
-			<Helmet>
-				<title>Smart Office Hotel - Забронировать отель во Владивостоке в центре города</title>
-				<meta
-					name='description'
-					content='Забронировать отель в центре города Владивосток с отличным сервисом и уютными номерами'
-				/>
+			<Helmet link={[{ rel: 'icon', href: 'public/favicon.ico' }]}>
+				<title>Smart Office Hotel</title>
+				<meta name='description' content='Забронировать отель во Владивостоке в центре города' />
 				<meta name='keywords' content='отели Владивосток забронировать центр города' />
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href='/' />
-				<link rel='icon' href='../shared/assets/icons/favicon.ico' />
+				<meta name='theme-color' content='#ffffff' />
+				<link rel='canonical' href='https://smart-office-hotel.ru' />
 			</Helmet>
 			<div className='app'>
 				<Navbar />

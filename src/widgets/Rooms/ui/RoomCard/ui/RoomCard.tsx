@@ -20,7 +20,15 @@ export function RoomCard(props: RoomCardProps) {
 			<Swiper modules={[Navigation]} navigation loop spaceBetween={'50px 50px'} slidesPerView={1}>
 				{slides.map((slide) => (
 					<SwiperSlide key={slide} className={cls['sample-slider-active']}>
-						<img className={cls.roomImg} src={slide} alt='Фото номеров' />
+						<img
+							className={cls.roomImg}
+							src={slide}
+							alt='Фото номеров'
+							title='Фото номеров'
+							loading='lazy'
+							width="100%"
+							height="100%"
+						/>
 					</SwiperSlide>
 				))}
 			</Swiper>

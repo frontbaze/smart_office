@@ -88,7 +88,7 @@ export const Navbar = memo(() => {
 					</a>
 				</div>
 
-				<div className={cls.logo}>Smart Office</div>
+				<div className={cls.logo}>Smart Office Hotel</div>
 
 				<div
 					onClick={openHandler}

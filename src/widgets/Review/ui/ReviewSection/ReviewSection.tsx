@@ -58,7 +58,15 @@ export const ReviewSection = memo(() => {
 			<div className={cls.recomendation}>
 				<div className={cls.recomendTitle}>Нас рекомнедуют на</div>
 				<a href={'https://vl.sutochno.ru/hotels/115924'}>
-					<img className={cls.sutochno} width={200} src={Sutochno} alt='Суточно.ру' />
+					<img
+						className={cls.sutochno}
+						width={200}
+						height='auto'
+						src={Sutochno}
+						alt='Суточно.ру'
+						title='Суточно.ру'
+						loading='lazy'
+					/>
 				</a>
 			</div>
 		</section>
