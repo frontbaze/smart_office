@@ -7,8 +7,4 @@ export interface MainSlide {
 	src: string;
 }
 
-export const mainSlides: MainSlide[] = [
-	{ id: 5, src: main1 },
-	{ id: 6, src: main2 },
-	{ id: 7, src: main3 },
-];
+export const mainSlide: MainSlide = { id: 5, src: main1 };
